@@ -38,7 +38,7 @@ def prediction(img_path_):
     THRESHOLD_VALUE = float(8.09e-11)
 
     if predicted_value > THRESHOLD_VALUE:
-        return "Class 0 - No Cancer!"
+        return "Class 0 - No Cancer! Be happy"
     else:
         return "Class 1 - Possibility of having Cancer!"
 
